@@ -1,0 +1,39 @@
+#Story
+
+start = '''
+It's July 20th, 2017. You are walking home from Girls Who Code when
+you hear a bewildering groan coming from the Moody's entrance.
+Thinking nothing of it, you continue walking to the subway entrance until
+hoards of people flood out of the path, screaming in fear. They rush past,
+nearly knocking you over. Once they've cleared, you see three grotesque
+human-like creatures follow behind.
+
+You lock eyes with them and immediately run into the nearest alleyway.
+There you see a lead pipe on the ground and a ladder leading up to the roof.
+'''
+leadpipeStory = '''
+Fight. Shelter or subway.
+'''
+ladderStory = '''
+Escape. Jump or fight
+'''
+
+#Code
+
+print(start)
+print("Type 'lead pipe' to fight or 'ladder' to escape.")
+user_input = input()
+if user_input == "lead pipe":
+    print(leadpipeStory) # finished the story by writing what happens
+elif user_input == "ladder":
+    print(ladderStory) # finished the story writing what happens
+else:
+    print("Incorrect Input! Try again. Type 'lead pipe' to fight or 'ladder' to escape.")
+    while True:
+        user_input = input()
+        if user_input == "lead pipe":
+            print(leadpipeStory) # finished the story by writing what happens
+        elif user_input == "ladder":
+            print(ladderStory) # finished the story writing what happens
+        else:
+            print("Incorrect Input! Try again. Type 'lead pipe' to fight or 'ladder' to escape.")
