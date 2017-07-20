@@ -15,27 +15,27 @@ leadpipeStory = '''
 Fight. Shelter or subway.
 '''
 ladderStory = '''
-Escape. Jump or fight
+You escape to the rooftops, but are surprised to see zombies there too. Do you want to jump off or try to fight them off?
 '''
 
 jumpStory = '''
-Land in Hudson river. Zombies are waiting for you. You drown. GAME OVER
+You land in the Hudson river. Zombies are waiting for you on the docks. You eventually drown. GAME OVER
 '''
 
 fightStory = '''
-Look through bag. Pocket knife or book
+You look through your bag. You have a pocket knife and a book. Which one do you choose as your weapon?
 '''
 
 pocketknifeStory = '''
-While fighting the zombies, you lose your knife. Zombies eat you. GAME OVER
+While fighting the zombies, you lose your knife. Zombies eat your brains. GAME OVER
 '''
 
 bookStory = '''
-You fight off all the zombies, bashing them in the head with the book. It's getting late... Yourself, shelter or look for other survivors
+You fight off all the zombies, bashing them in the head with the book. It's getting late... You can either decide to stick to yourself and find shelter or look for other survivors?
 '''
 
 shelterStory = '''
-You find an empty Target. You spend the night there and plan a way to defeat the zombies. WIN GAME
+You find an empty Target. You spend the night there and plan a way to defeat the zombies in the morning. WIN GAME
 '''
 
 survivorsStory = '''
