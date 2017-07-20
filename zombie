@@ -14,6 +14,7 @@ There you see a lead pipe on the ground and a ladder leading up to the roof.
 leadpipeStory = '''
 Fight. Shelter or subway.
 '''
+
 ladderStory = '''
 You escape to the rooftops, but are surprised to see zombies there too. Do you want to jump off or try to fight them off?
 '''
