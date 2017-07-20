@@ -18,6 +18,29 @@ ladderStory = '''
 Escape. Jump or fight
 '''
 
+jumpStory = '''
+Land in Hudson river. Zombies are waiting for you. You drown. GAME OVER
+'''
+
+fightStory = '''
+Look through bag. Pocket knife or book
+'''
+
+pocketknifeStory = '''
+While fighting the zombies, you lose your knife. Zombies eat you. GAME OVER
+'''
+
+bookStory = '''
+You fight off all the zombies, bashing them in the head with the book. It's getting late... Yourself, shelter or look for other survivors
+'''
+
+shelterStory = '''
+You find an empty Target. You spend the night there and plan a way to defeat the zombies. WIN GAME
+'''
+
+survivorsStory = '''
+You walk around the neighborhood and can't find a single person. The zombies eat you up as a midnight snack. GAME OVER
+'''
 #Code
 
 print(start)
@@ -27,6 +50,54 @@ if user_input == "lead pipe":
     print(leadpipeStory) # finished the story by writing what happens
 elif user_input == "ladder":
     print(ladderStory) # finished the story writing what happens
+    print("Type 'jump' to jump off the roof or 'fight' to attempt to fight off the zombies.")
+    user_input = input()
+    if user_input == "jump":
+        print(jumpStory)
+    elif user_input == "fight":
+        print(fightStory)
+        print("Type 'pocket knife' to pull out a pocket knife as your weapon or 'book' to use a book as your weapon")
+        user_input = input()
+        if user_input == "pocket knife"
+            print(pocketknifeStory)
+        elif user_input == "book"
+            print(bookStory)
+            print("Type 'shelter' to look for shelter by yourself or 'survivors'to look for other survivors")
+            user_input = input()
+            if user_input == "shelter"
+                print(shelterStory)
+            elif user_input == "survivors"
+                print(survivorsStory)
+            else:
+                print("Incorrect input! Try again. Type 'shelter' to look for shelter by yourself or 'survivors'to look for other survivors")
+                while True:
+                    user_input = input()
+                    if user_input == "shelter"
+                        print(shelterStory)
+                    elif user_input == "survivors"
+                        print(survivorsStory)
+                    else:
+                        print("Incorrect input! Try again. Type 'shelter' to look for shelter by yourself or 'survivors'to look for other survivors")
+        else:
+            print("Incorrect Input! Try again. Type 'pocket knife' to pull out a pocket knife as your weapon or 'book' to use a book as your weapon")
+            while True:
+                user_input = input()
+                if user_input == "pocket knife"
+                    print(pocketknifeStory)
+                elif user_input == "book"
+                    print(bookStory)
+                else:
+                    print("Incorrect Input! Try again. Type 'pocket knife' to pull out a pocket knife as your weapon or 'book' to use a book as your weapon")
+    else:
+        print("Incorrect Input! Try again. Type 'jump' to jump off the roof or 'fight' to attempt to fight off the zombies.")
+        while True:
+            user_input = input()
+            if user_input == "jump":
+                print(jumpStory)
+            elif user_input == "fight":
+                print(fightStory)
+            else:
+                print("Incorrect Input! Try again. Type 'jump' to jump off the roof or 'fight' to attempt to fight off the zombies.")
 else:
     print("Incorrect Input! Try again. Type 'lead pipe' to fight or 'ladder' to escape.")
     while True:
@@ -37,3 +108,4 @@ else:
             print(ladderStory) # finished the story writing what happens
         else:
             print("Incorrect Input! Try again. Type 'lead pipe' to fight or 'ladder' to escape.")
+
