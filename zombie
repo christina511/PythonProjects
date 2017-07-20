@@ -58,23 +58,23 @@ elif user_input == "ladder":
         print(fightStory)
         print("Type 'pocket knife' to pull out a pocket knife as your weapon or 'book' to use a book as your weapon")
         user_input = input()
-        if user_input == "pocket knife"
+        if user_input == "pocket knife":
             print(pocketknifeStory)
-        elif user_input == "book"
+        elif user_input == "book":
             print(bookStory)
             print("Type 'shelter' to look for shelter by yourself or 'survivors'to look for other survivors")
             user_input = input()
-            if user_input == "shelter"
+            if user_input == "shelter":
                 print(shelterStory)
-            elif user_input == "survivors"
+            elif user_input == "survivors":
                 print(survivorsStory)
             else:
                 print("Incorrect input! Try again. Type 'shelter' to look for shelter by yourself or 'survivors'to look for other survivors")
                 while True:
                     user_input = input()
-                    if user_input == "shelter"
+                    if user_input == "shelter":
                         print(shelterStory)
-                    elif user_input == "survivors"
+                    elif user_input == "survivors":
                         print(survivorsStory)
                     else:
                         print("Incorrect input! Try again. Type 'shelter' to look for shelter by yourself or 'survivors'to look for other survivors")
@@ -82,9 +82,9 @@ elif user_input == "ladder":
             print("Incorrect Input! Try again. Type 'pocket knife' to pull out a pocket knife as your weapon or 'book' to use a book as your weapon")
             while True:
                 user_input = input()
-                if user_input == "pocket knife"
+                if user_input == "pocket knife":
                     print(pocketknifeStory)
-                elif user_input == "book"
+                elif user_input == "book":
                     print(bookStory)
                 else:
                     print("Incorrect Input! Try again. Type 'pocket knife' to pull out a pocket knife as your weapon or 'book' to use a book as your weapon")
@@ -108,4 +108,3 @@ else:
             print(ladderStory) # finished the story writing what happens
         else:
             print("Incorrect Input! Try again. Type 'lead pipe' to fight or 'ladder' to escape.")
-
