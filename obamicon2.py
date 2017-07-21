@@ -4,7 +4,7 @@ from PIL import Image
 darkGreen = (69, 114, 89)
 orange = (248, 146, 33)
 lightPurple = (188, 136, 233)
-yellow = (222, 218, 187)
+taupe = (222, 218, 187)
 
 # Import image.
 my_image = Image.open("brooklyn.jpg") #change IMAGENAME to the path on your computer to the image you're using
@@ -24,7 +24,7 @@ for pixel in image_list:
     elif intensity >= 364 and intensity < 546:
         recolored.append(lightPurple)
     elif intensity >= 546:
-        recolored.append(yellow)
+        recolored.append(taupe)
 
 
 # Create a new image using the recolored list. Display and save the image.
